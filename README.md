@@ -11,7 +11,7 @@
 * Backward propagation
   * 构造[linear->relu]×（L-1）->linear->sigmoid的前向传播模型
   * 更新权重，偏差
- ### Model_Application.ipynb机构如下：
+**`Model_Application.ipynb` 结构如下：**
 * 构造两层神经网络模型，隐藏层7个神经网络单元，2500次迭代后，Test Accuracy=0.72
 * 构造五层神经网络模型，各层神经网络单元为[12288, 20, 7, 5, 1]， 2500次迭代后，Test Accuracy=0.80
 
